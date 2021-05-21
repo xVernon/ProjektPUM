@@ -7,8 +7,9 @@
 
     <fragment
         android:id="@+id/FirstFragment"
-        android:name="com.example.projektpum.WelcomeScreen"
+        android:name="com.example.projektpum.view.fragments.WelcomeScreen"
         android:label="@string/first_fragment_label"
+        android:textColor="@color/titleColor"
         tools:layout="@layout/fragment_first">
 
         <action
@@ -17,7 +18,7 @@
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
-        android:name="com.example.projektpum.FirstUse"
+        android:name="com.example.projektpum.view.fragments.FirstUse"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_second">
 
